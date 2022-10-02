@@ -66,7 +66,7 @@ public class AuthAuthorizationApplication {
             this.userService.saveNewUser(user2);
 
             this.userService.addRoleToUser("Mtefel", RoleName.ROLE_ADMIN);
-            this.userService.addRoleToUser("Mina", RoleName.ROLE_USER);
+            this.userService.addRoleToUser("Hibernate", RoleName.ROLE_USER);
             this.userService.addRoleToUser("Mouhoubinho", RoleName.ROLE_USER);
 
 
