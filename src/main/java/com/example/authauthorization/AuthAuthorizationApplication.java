@@ -41,7 +41,7 @@ public class AuthAuthorizationApplication {
             this.roleService.save(adminRole);
 
             User user1 = User.builder()
-                    .username("Mina")
+                    .username("Hibernate")
                     .firstName("Med")
                     .lastName("ANGULAR")
                     .email("med.angular@gmail.com")
